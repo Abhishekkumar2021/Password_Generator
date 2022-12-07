@@ -1,0 +1,25 @@
+{
+  "name": "password_generator",
+  "version": "1.0.0",
+  "description": "A simple application to generate unique passwords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekkumar2021/Password_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishekkumar2021/Password_Generator/issues"
+  },
+  "homepage": "https://github.com/Abhishekkumar2021/Password_Generator#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "generate-password": "^1.7.0"
+  }
+}

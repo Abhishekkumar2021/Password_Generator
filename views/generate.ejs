@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate</title>
+    <link rel="stylesheet" href="generate.css">
+</head>
+
+<body>
+    <h1>Please select the options for your password.</h1>
+    
+    <form action="/generate" method="post">
+        <div>
+            <label for="length">Length</label>
+            <input type="number" name="length" id="length" min="8" max="128" value="8">
+        </div>
+        <div>
+            <label for="uppercase">Uppercase</label>
+            <input type="checkbox" name="uppercase" id="uppercase">
+        </div>
+        <div>
+            <label for="numbers">Numbers</label>
+            <input type="checkbox" name="numbers" id="numbers">
+        </div>
+        <div>
+            <label for="symbols">Symbols</label>
+            <input type="checkbox" name="symbols" id="symbols">
+        </div>
+        <div>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</div>
+
+</html>
